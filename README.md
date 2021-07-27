@@ -7,7 +7,7 @@ Passport strategy for authentication with [Discord](http://discordapp.com) throu
 Before using this strategy, it is strongly recommended that you read through the official docs page [here](https://discord.com/developers/docs/topics/oauth2), especially about the scopes and understand how the auth works.
 
 ## Usage
-`npm install passport-discord --save`
+`npm install passport-discord --save titit`
 
 #### Configure Strategy
 The Discord authentication strategy authenticates users via a Discord user account and OAuth 2.0 token(s). A Discord API client ID, secret and redirect URL must be supplied when using this strategy. The strategy also requires a `verify` callback, which receives the access token and an optional refresh token, as well as a `profile` which contains the authenticated Discord user's profile. The `verify` callback must also call `cb` providing a user to complete the authentication.
